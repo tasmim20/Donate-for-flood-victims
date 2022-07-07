@@ -3,9 +3,6 @@ body{
     margin:0;
     
 }
-#margin{
-    margin:100px;
-}
 h1{
     font-size:50px;
 }
@@ -22,10 +19,12 @@ background-image: url("donation13.jpg");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-margin:0 ;
+margin:0;
 color:white;
-    
-  }
+}
+#start{
+    margin-top: 150px;
+}
 .anchor{
     text-decoration: none;
     padding:10px 30px;
@@ -38,6 +37,10 @@ color:white;
 }
 .center{
     text-align: center;
+}
+.start2{
+    margin-top: 150px;
+    margin-bottom: 0;
 }
 .amount{
         display: inline-block;
@@ -57,9 +60,14 @@ color:white;
     border-bottom: 2px solid salmon;
     border-top: 2px solid salmon;
 }
+.other-amount{
+          border:none;
+          outline: none;
+          background-color: transparent;
+}
 .donate{
     display:inline-flex;
-    margin:50px;
+    margin:80px;
 }
 .donate-plan{
     padding:30px 50px;
@@ -75,11 +83,10 @@ color:white;
 .education{
     background-color: #FFF4D6;
 }
-.section4{
-    padding:30px 50px;
-    border-radius:5px;
-    border:30px solid white;
-    color:brown;
+#section4{
+    padding:10px 50px;
+    margin-top: 0;
+    margin-right:20px;
 }
 span{
     color:blueviolet;
@@ -87,7 +94,7 @@ span{
 .subscribe{
     background-color:#FFF4D6 ;
     padding: 60px 100px;
-   
+   margin:70px 200px;
 }
 #subscribe1{
     text-decoration: none;
@@ -98,7 +105,7 @@ span{
     color:white;
   
 }  
-input{
+#input2{
 
     background-color:#D9D9D9;
     padding:5px 60px;
